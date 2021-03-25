@@ -19,7 +19,7 @@ test('should create an element with text and correct class', async () => {
  });
  const page = await browser.newPage();
  await page.goto(
-   'https://jest-puppeteer-wn21-1.anisahab.repl.co/index.html'
+   'https://jest-puppeteer-wn21-1.rlcardenas.repl.co/index.html'
  );
  await page.click('input#name');
  await page.type('input#name', 'Anna');
